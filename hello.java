@@ -1,6 +1,6 @@
 // Simple Java program
 // FileName: "HelloWorld.java"
-public class HelloWorld {
+public class hello {
     
     // Your program begins with a call to main().
     // Prints "Hello, World" to the terminal window.
