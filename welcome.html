@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hello, HTML</title>
+    <style>
+      body { font-family: system-ui, sans-serif; margin: 2rem; }
+      h1 { margin-bottom: 0.5rem; }
+      .card { border: 1px solid #ccc; border-radius: 12px; padding: 1rem; }
+      a { text-decoration: none; }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>My Simple Page</h1>
+      <p>This is a minimal HTML template.</p>
+    </header>
+
+    <main>
+      <section class="card">
+        <h2>About</h2>
+        <p>HTML gives structure to web pages. Edit this text to get started!</p>
+        <p><a href="#click" id="click">Click me</a></p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025</p>
+    </footer>
+
+    <script>
+      document.getElementById('click').addEventListener('click', function (e) {
+        e.preventDefault();
+        alert('Hello from JavaScript!');
+      });
+    </script>
+  </body>
+</html>
