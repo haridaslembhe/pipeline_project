@@ -17,7 +17,7 @@ class Car {
 public class demo {
     public static void main(String[] args) {
         Car car1 = new Car("HondaNew", 2021);
-        Car car2 = new Car("Hero India", 2025);
+        Car car2 = new Car("Herocorp India", 2025);
 
         car1.displayInfo();
         car2.displayInfo();
