@@ -10,6 +10,7 @@ class Car {
 
     void displayInfo() {
         System.out.println("Car: " + brand + " (" + year + ")");
+        System.out.println("welcome");
     }
 }
 
